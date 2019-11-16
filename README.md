@@ -9,11 +9,13 @@
 
 > Use general guidelines for Naming and declaration rules for variables and functions such as All names start with a letter     and not use of hyphen,etc.
 
+> Use ***appropriate variables/controllers/routes/hooks/methods name*** which can define the functioning of it. Avoid using random/inappropriate names such as test-hook,product1,color1,etc.
+
 > Use ***camelCaseNotation*** for defining classes and components or file naming conventions to provide consistency in our     coding pattern.
 
 > Follow linting rules, break up lines that are too long. Use ***linelength less than or equal to 100 characters***.For         readability, avoid lines longer than 100 characters.
 
-> Minimize the use of ***Global variables*** as ***Global variables and functions*** can be overwritten by other scripts to     provide Datasecurity.
+> Minimize the use of ***Global variables*** as ***Global variables and functions*** can be overwritten by other scripts.
 
 > Use **DRY [Don't Repeat Yourself]** strategy to avoid data/code duplication.
   If your component or controller code using some repeating patterns for error handling or file uploading or file               removing,etc please create generalize your code.
